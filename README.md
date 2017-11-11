@@ -185,9 +185,6 @@ In the scalar section, we can monitor our loss and accuracy overtime. You can se
 
 ![Loss and Accuracy curves](https://github.com/ajhalthor/Structure-Tensorflow-Neural-Network/blob/master/mics/screen1.png)
 
-
-https://github.com/ajhalthor/Structure-Tensorflow-Neural-Network/blob/master/mics/screen1.png
-
 For the current configuration, I can get upto a **96%** accuracy over 10 epochs. Play around with the hyper parameters to improve this number. NOTE that a typical feed forward neural net isn’t optimal for such a computer vision problem. You can use a convolutional net instead and get performance well over 99%. 
 
 Regardless, I hope this gave you an insight on how to structure your Tensorflow code for DNNs and make use of tensorboard for visualization.

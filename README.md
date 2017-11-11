@@ -178,12 +178,15 @@ Then open `localhost:6006` on a browser tab.
 
 In the graph section, we can view our computation graph, just like we described in our program. 
 
-![Computation Graph](https://github.com/ajhalthor/structure-Tensorflow-Neural-Network/mics/screen3.png)
+![Computation Graph](https://github.com/ajhalthor/Structure-Tensorflow-Neural-Network/blob/master/mics/screen3.png)
 
 
 In the scalar section, we can monitor our loss and accuracy overtime. You can see that everythings running well as loss decreases over time and accuracy improves for the test set.
 
-![Loss and Accuracy curves](https://github.com/ajhalthor/structure-Tensorflow-Neural-Network/mics/screen1.png)
+![Loss and Accuracy curves](https://github.com/ajhalthor/Structure-Tensorflow-Neural-Network/blob/master/mics/screen1.png)
+
+
+https://github.com/ajhalthor/Structure-Tensorflow-Neural-Network/blob/master/mics/screen1.png
 
 For the current configuration, I can get upto a **96%** accuracy over 10 epochs. Play around with the hyper parameters to improve this number. NOTE that a typical feed forward neural net isn’t optimal for such a computer vision problem. You can use a convolutional net instead and get performance well over 99%. 
 
